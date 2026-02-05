@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hancheng Wang</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.5; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 36px 18px; }
+    h1 { margin: 0 0 6px; }
+    .sub { margin: 0 0 18px; color: #444; }
+    .row { display: flex; gap: 14px; flex-wrap: wrap; margin: 10px 0 22px; }
+    .chip { border: 1px solid #ddd; padding: 8px 12px; border-radius: 999px; }
+    h2 { margin-top: 28px; }
+    .card { border: 1px solid #eee; border-radius: 10px; padding: 14px 16px; margin: 12px 0; }
+    .muted { color: #555; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Hancheng Wang</h1>
+    <p class="sub">Semiconductor Process & Materials Engineer | Process Development | Reliability | Data-driven Engineering</p>
+
+    <div class="row">
+      <div class="chip">Email: <a href="mailto:hcwang313@gmail.com">hcwang313@gmail.com</a></div>
+      <div class="chip">LinkedIn: <a href="#">(add link)</a></div>
+      <div class="chip">GitHub: <a href="#">(add link)</a></div>
+      <div class="chip">Location: Texas, USA</div>
+    </div>
+
+    <h2>What I Do</h2>
+    <ul>
+      <li>Advanced semiconductor process development and integration-facing experiments (e.g., rapid thermal/laser-based processing).</li>
+      <li>Materials & device characterization (SEM/EDS, XRD, FTIR, electrical/optical measurements) to support failure analysis and feasibility evaluation.</li>
+      <li>Reliability and yield risk analysis bridging lab results and manufacturing decisions.</li>
+      <li>Python-based data analysis and automation for engineering insights (conceptual demonstrations only; no confidential data).</li>
+    </ul>
+
+    <h2>Selected Technical Projects</h2>
+
+    <div class="card">
+      <b>Laser Spike Annealing for Advanced Integration</b>
+      <div class="muted">Process development | Process window | Structure–property correlation</div>
+      <ul>
+        <li>Designed thin-film substrates enabling sub-millisecond thermal processing up to ~2200°C.</li>
+        <li>Calibrated temperature–time profiles vs. laser power/dwell to correlate process and material response.</li>
+        <li>Established repeatable fixtures and workflows to improve uniformity and throughput.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <b>Contamination & Failure Analysis Support (R&D Environment)</b>
+      <div class="muted">SEM/EDS/FTIR | Root-cause investigation | Quantification</div>
+      <ul>
+        <li>Performed materials and contamination characterization to support engineering investigations.</li>
+        <li>Built Python-based image quantification tools (high-level workflow only) to improve consistency.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <b>Reliability Data Analytics Workflow (Conceptual Demo)</b>
+      <div class="muted">Trend/anomaly logic | Decision support | Manufacturing-facing</div>
+      <ul>
+        <li>Illustrated a workflow to convert multi-stage test data into early risk flags using statistical/ML logic.</li>
+        <li>Presented only synthetic/illustrative examples to respect confidentiality.</li>
+      </ul>
+    </div>
+
+    <h2>Skills</h2>
+    <p>Wafer process • Thin films • Lithography/etch • Reliability (HTOL/HALT/BI) • SPC • SEM/EDS • XRD • FTIR • Python • MATLAB</p>
+
+    <h2>CV</h2>
+    <p><a href="#">Download PDF (add link)</a></p>
+
+    <p class="muted" style="margin-top: 28px;">© <span id="y"></span> Hancheng Wang</p>
+  </div>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
